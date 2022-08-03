@@ -12,7 +12,7 @@ import { Pixabay } from './components/Pixabay';
 function App() {
   return (
     <div>
-      <h1>Reactの基礎</h1>
+      <h1>基礎を勉強</h1>
       <Text />
       <Counter />
       <ToggleButton />
