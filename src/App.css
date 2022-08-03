@@ -1,0 +1,236 @@
+/* MODAL */
+.card-container {
+  margin-top: 96px;
+}
+
+.card {
+  display: inline-block;
+  width: 22.5%;
+  margin-right: 24px;
+  text-align: center;
+  box-shadow: 0 0 6px #e8e8e8;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card-item {
+  border-radius: 4px;
+  padding: 48px 0 64px;
+}
+
+.card-item img {
+  width: 80%;
+}
+
+.card-item p {
+  color: #2b546a;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-inner {
+  position: absolute;
+  top: 8%;
+  right: 0;
+  left: 0;
+  width: 480px;
+  padding-bottom: 60px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.modal-header {
+  height: 8px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 8px 8px 0 0;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/modal_bar.svg");
+}
+
+.modal-introduction p {
+  color: #5876a3;
+  width: 384px;
+  line-height: 32px;
+  text-align: left;
+  margin: 36px auto 40px;
+}
+
+.modal-close-btn {
+  font-size: 13px;
+  color: #8491a5;
+  width: 200px;
+  padding: 16px 0;
+  border: 0;
+  background-color: #f0f4f9;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: .3s ease-in-out;
+}
+
+
+/* Form */
+.contact-container {
+  margin-top: 96px;
+}
+
+.contact-form p {
+  color: #8491a5;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.contact-form p.contact-message-error {
+  color: #ff4d75;
+  margin-top: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #8491a5;
+  width: 440px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #bac6d3;
+  border-radius: 3px;
+  display: block;
+}
+
+.contact-form input {
+  height: 48px;
+}
+
+.contact-form textarea {
+  height: 184px;
+}
+
+.contact-form button[type=submit] {
+  color: #fff;
+  width: 184px;
+  height: 48px;
+  font-size: 13px;
+  background-color: #30c8d6;
+  border: none;
+  margin-top: 32px;
+}
+
+.contact-form button[type=submit]:hover {
+  cursor: pointer;
+}
+
+.contact-submit-message {
+  box-sizing: border-box;
+  color: #16a48a;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(48, 214, 184, 0.16);
+  border: 2px solid #30d6b8;
+  border-radius: 3px;
+}
+
+/* Search */
+
+.search-main {
+  text-align: center;
+  padding: 70px 150px;
+}
+
+.search-main input {
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 2px;
+  width: 200px;
+}
+
+.search-content {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 60px;
+}
+
+.search-box {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/* pixabay */
+
+
+.pixabay-container {
+  width: 100%;
+  height: 100vh;
+  padding: 36px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pixabay-container h2 {
+  margin-bottom: 12px;
+}
+
+.pixabay-container input {
+  min-width: 360px;
+  padding: 5px 12px;
+  margin-bottom: 36px;
+  outline: none;
+}
+
+
+
+.pixabay-images-wrapper{
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  grid-gap: 160px;
+  padding-right: 100px;
+}
+
+.pixabay-image {
+  /* border: 1px solid black; */
+  width: 250px;
+  height: 250px;
+}
+
+.pixabay-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  background-position: center;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all;
+}
+
+.pixabay-image img:hover {
+  box-shadow: none;
+  transition-duration: 0.3s;
+  transform: translateY(5px);
+}
